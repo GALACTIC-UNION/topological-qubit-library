@@ -1,0 +1,9 @@
+simulation:
+  anyon_model: ising
+  n_anyons: 4
+benchmark:
+  epsilon: 1.0e-4         # Braid approximation precision
+  max_braid_length: 1000  # Maximum braid word length for compilation
+code:
+  default: surface_code
+  distance: 5

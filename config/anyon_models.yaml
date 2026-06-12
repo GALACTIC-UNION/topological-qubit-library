@@ -1,0 +1,13 @@
+models:
+  ising:
+    charges: ["1", "sigma", "psi"]
+    universal: false
+    physical_candidates:
+      - "Majorana zero modes"
+      - "nu=5/2 FQH state"
+  fibonacci:
+    charges: ["1", "tau"]
+    universal: true
+    quantum_dim: 1.6180339887  # Golden ratio
+    physical_candidates:
+      - "nu=12/5 FQH state (theoretical)"
